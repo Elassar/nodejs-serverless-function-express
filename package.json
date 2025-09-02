@@ -1,10 +1,9 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
+  "name": "weathercloud-vercel",
+  "version": "1.0.0",
+  "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/node": "^17.0.42",
-    "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3"
+  "dependencies": {
+    "weathercloud-js": "^1.0.0"
   }
 }
